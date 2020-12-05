@@ -1,0 +1,139 @@
+<!--
+theme name:     RetroStream
+version:        1.0
+author:         Peter van den Hout
+website:        https://github.com/ofpinewood/es-theme-retro-stream
+license:        MIT License
+based on:       Art Book by Anthony Caccese
+-->
+<theme>
+  <formatVersion>4</formatVersion>
+
+  <variables>
+    <backgroundColor>121314</backgroundColor>
+    <menuColor>222326</menuColor>
+    <textColor>FFFFFF</textColor>
+    <fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
+    <opacity50>80</opacity50>
+  </variables>
+
+  <view name="system, basic, detailed, video, grid">
+    <image name="background" extra="true">
+      <tile>true</tile>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./_inc/images/tile.png</path>
+      <color>${backgroundColor}FF</color>
+    </image>
+
+    <image name="background_help" extra="true">
+      <path>./_inc/images/tile.png</path>
+      <origin>0 1</origin>
+      <pos>0 1</pos>
+      <size>1 0.070</size>
+      <color>${backgroundColor}${opacity50}</color>
+    </image>
+
+    <helpsystem name="help">
+      <textColor>${textColor}${opacity50}</textColor>
+      <iconColor>${textColor}${opacity50}</iconColor>
+      <fontPath>${fontPath}</fontPath>
+    </helpsystem>
+
+    <image name="logo">
+      <path>./${system.name}/_inc/system.svg</path>
+    </image>
+
+    <text name="logoText">
+      <fontPath>${fontPath}</fontPath>
+      <forceUppercase>true</forceUppercase>
+    </text>
+
+    <textlist name="gamelist">
+      <fontPath>.${fontPath}</fontPath>
+    </textlist>
+  </view>
+
+  <view name="system">
+    <text name="systemInfo">
+      <fontPath>${fontPath}</fontPath>
+    </text>
+  </view>
+
+  <view name="basic"></view>
+  <view name="detailed"></view>
+  <view name="video"></view>
+  <view name="grid"></view>
+
+  <view name="menu">
+    <menuText name="menutitle">
+      <fontPath>${fontPath}</fontPath>
+      <color>${textColor}FF</color>
+    </menuText>
+    <menuText name="menufooter">
+      <fontPath>${fontPath}</fontPath>
+      <color>${textColor}${opacity50}</color>
+    </menuText>
+    <menuText name="menutext">
+      <fontPath>${fontPath}</fontPath>
+      <color>${textColor}FF</color>
+      <separatorColor>${menuColor}FF</separatorColor>
+      <selectorColor>${backgroundColor}FF</selectorColor>
+      <selectedColor>${textColor}FF</selectedColor>
+      <!-- <fontSize>0.038</fontSize>
+      <color>969696</color>
+      <separatorColor>323232FF</separatorColor>
+      <selectorColor>${baseColor}</selectorColor>
+      <selectorColorEnd>${gradientEndColor}</selectorColorEnd>
+      <selectedColor>FFFFFF</selectedColor>
+      <selectorGradientType>horizontal</selectorGradientType> -->
+    </menuText>
+    <menuTextSmall name="menutextsmall">
+      <fontPath>${fontPath}</fontPath>
+      <color>${textColor}FF</color>
+      <separatorColor>${menuColor}FF</separatorColor>
+      <selectorColor>${backgroundColor}FF</selectorColor>
+      <selectedColor>${textColor}FF</selectedColor>
+    </menuTextSmall>
+    <menuGroup name="menugroup">
+      <fontPath>${fontPath}</fontPath>
+      <color>${textColor}FF</color>
+      <separatorColor>${textColor}FF</separatorColor>
+      <selectorColor>${backgroundColor}FF</selectorColor>
+      <selectedColor>${textColor}FF</selectedColor>
+      <backgroundColor>${menuColor}FF</backgroundColor>
+      <!-- <horizontalMargin>5</horizontalMargin> -->
+      <!-- <lineSpacing>2.5</lineSpacing> -->
+    </menuGroup>
+    <menuBackground name="menubg">
+      <cornerSize>32 32</cornerSize>
+      <path>./_inc/images/tile-dark.png</path>
+    </menuBackground>
+    <!-- <menuIcons name="menuicons">
+      <iconKodi>./art/icons/Kodi.png</iconKodi>
+      <iconSystem>./art/icons/System.png</iconSystem>
+      <iconUpdates>./art/icons/Updates.png</iconUpdates>
+      <iconGames>./art/icons/Games.png</iconGames>
+      <iconControllers>./art/icons/Controllers.png</iconControllers>
+      <iconUI>./art/icons/UI.png</iconUI>
+      <iconSound>./art/icons/Sound.png</iconSound>
+      <iconNetwork>./art/icons/Network.png</iconNetwork>
+      <iconScraper>./art/icons/Scraper.png</iconScraper>
+      <iconAdvanced>./art/icons/Advanced.png</iconAdvanced>
+      <iconQuit>./art/icons/Quit.png</iconQuit>
+      <iconRestart>./art/icons/Restart.png</iconRestart>
+      <iconShutdown>./art/icons/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./art/icons/Fastshutdown.png</iconFastShutdown>
+      <iconRetroachievements>./art/icons/Contest.png</iconRetroachievements>
+    </menuIcons> -->
+    <!-- <menuTextEdit name="menutextedit">
+      <inactive>./art/textinput_ninepatch.png</inactive>
+      <active>./art/textinput_ninepatch_active.png</active>
+    </menuTextEdit> -->
+    <!-- <menuButton name="menubutton">
+      <path>./art/button.png</path>
+      <filledPath>./art/button_filled.png</filledPath>
+    </menuButton> -->
+  </view>
+</theme>
