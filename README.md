@@ -13,7 +13,7 @@ A simple theme for Emulation Station and RetroPie made to resemble a streaming s
 - Displays rating, description, # of players, genre, publish date & last played metadata on detailed and video views
 
 ## Acknowledgments
--  [More Perfect DOS VGA](http://laemeur.sdf.org/fonts) font by [Adam Moore (LÆMEUR)](http://laemeur.sdf.org/).
+
 
 ## Contributing
 We accept fixes and features! Here are some resources to help you get started on how to contribute code or new content.
