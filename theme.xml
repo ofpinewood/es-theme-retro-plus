@@ -1,10 +1,9 @@
 <!--
-theme name:     RetroStream
+theme name:     RetroPlus
 version:        1.0
 author:         Peter van den Hout
-website:        https://github.com/ofpinewood/es-theme-retro-stream
+website:        https://github.com/ofpinewood/es-theme-retro-plus
 license:        MIT License
-based on:       Art Book by Anthony Caccese
 -->
 <theme>
   <formatVersion>4</formatVersion>

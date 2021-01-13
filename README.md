@@ -1,4 +1,4 @@
-# RetroPlus <img src="retro-stream-logo-256x256.gif" alt="RetroStream" height="44" align="left" />
+# RetroPlus <img src="retro-plus-logo-256x256.gif" alt="RetroPlus" height="44" align="left" />
 
 [![License: MIT](https://img.shields.io/github/license/ofpinewood/es-theme-retro-plus.svg)](https://github.com/ofpinewood/es-theme-retro-plus/blob/master/LICENSE)
 
