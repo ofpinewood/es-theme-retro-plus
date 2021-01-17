@@ -1,0 +1,11 @@
+<theme>
+  <formatVersion>4</formatVersion>
+  <include>./../system.xml</include>
+
+  <view name="system">
+    <image name="background-logo" extra="true">
+			<path>./logo-alt.png</path>
+		</image>
+  </view>
+
+</theme>

@@ -1,0 +1,12 @@
+<theme>
+  <formatVersion>4</formatVersion>
+
+  <variables>
+    <backgroundColor>121314</backgroundColor>
+    <textColor>FFFFFF</textColor>
+    <fontPath>./_inc/fonts/LessPerfectDOSVGA.ttf</fontPath>
+    <transparency75>BF</transparency75><!-- 75% -->
+    <transparency50>80</transparency50><!-- 50% -->
+    <transparency25>40</transparency25><!-- 25% -->
+  </variables>
+</theme>

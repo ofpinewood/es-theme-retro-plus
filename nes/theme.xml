@@ -1,9 +1,12 @@
 <theme>
   <formatVersion>4</formatVersion>
-  <include>./../theme.xml</include>
+  <include>./../system.xml</include>
 
-  <view name="system"></view>
-  <view name="basic"></view>
-  <view name="detailed"></view>
-  <view name="video"></view>
+  <view name="system">
+    <image name="background-logo" extra="true">
+			<maxSize>0.4 0.4</maxSize>
+			<path>./logo-alt.png</path>
+		</image>
+  </view>
+
 </theme>
