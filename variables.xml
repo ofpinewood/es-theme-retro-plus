@@ -4,6 +4,7 @@
   <variables>
     <backgroundColor>121314</backgroundColor>
     <textColor>FFFFFF</textColor>
+    <textColorDark>555555</textColorDark>
     <fontPath>./_inc/fonts/LessPerfectDOSVGA.ttf</fontPath>
     <transparency75>BF</transparency75><!-- 75% -->
     <transparency50>80</transparency50><!-- 50% -->

@@ -9,4 +9,11 @@
 		</image>
   </view>
 
+  <view name="basic,detailed">
+    <image name="logo">
+			<path>./logo-alt.png</path>
+      <maxSize>0.1875 0.11625</maxSize>
+		</image>
+  </view>
+
 </theme>

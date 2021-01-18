@@ -8,4 +8,10 @@
 		</image>
   </view>
 
+  <view name="basic,detailed">
+    <image name="logo">
+			<path>./logo-alt.png</path>
+		</image>
+  </view>
+
 </theme>
