@@ -26,20 +26,20 @@ license:        MIT License
       <forceUppercase>true</forceUppercase>
     </text>
 
-    <image name="corner-logo" extra="true">
+    <!-- <image name="corner-logo" extra="true">
 			<tile>false</tile>
 			<pos>0.01 0.01</pos>
 			<origin>0 0</origin>
 			<maxSize>0.1 0.1</maxSize>
-			<path>./_inc/images/logo-square-15x15.gif</path>
-		</image>
+			<path>./_inc/images/logo-27x27.gif</path>
+		</image> -->
 
-    <image name="background_help" extra="true">
+    <image name="background-help" extra="true">
       <path>./_inc/images/tile.png</path>
       <origin>0 1</origin>
       <pos>0 1</pos>
       <size>1 0.070</size>
-      <color>${backgroundColor}${}</color>
+      <color>${backgroundColor}</color>
     </image>
 
     <helpsystem name="help">
@@ -62,8 +62,16 @@ license:        MIT License
       <logoSize>0.25 0.155</logoSize>
       <logoScale>1</logoScale>
       <maxLogoCount>2</maxLogoCount>
-      <color>${backgroundColor}${transparency50}</color>
+      <color>00000000</color>
     </carousel>
+
+    <image name="background-carousel" extra="true">
+      <path>./_inc/images/gradient-50-100.png</path>
+      <origin>0 1</origin>
+      <pos>0 1</pos>
+      <size>1 0.35</size>
+      <zIndex>11</zIndex>
+    </image>
 
     <text name="systemInfo">
       <fontPath>${fontPath}</fontPath>
