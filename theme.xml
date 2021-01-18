@@ -35,11 +35,12 @@ license:        MIT License
 		</image> -->
 
     <image name="background-help" extra="true">
-      <path>./_inc/images/tile.png</path>
+      <tile>true</tile>
       <origin>0 1</origin>
       <pos>0 1</pos>
       <size>1 0.070</size>
-      <color>${backgroundColor}</color>
+      <path>./_inc/images/tile.png</path>
+      <color>${backgroundColor}FF</color>
     </image>
 
     <helpsystem name="help">
@@ -76,7 +77,7 @@ license:        MIT License
     <text name="systemInfo">
       <fontPath>${fontPath}</fontPath>
       <color>${textColor}</color>
-      <pos>0 0.68</pos>
+      <pos>0 0.87</pos>
       <backgroundColor>00000000</backgroundColor>
     </text>
   </view>
