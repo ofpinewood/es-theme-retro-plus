@@ -10,41 +10,26 @@
     </image>
   </view>
 
-  <view name="basic,detailed">
+  <view name="system,basic,detailed">
     <image name="background-wallpaper" extra="true">
 			<tile>false</tile>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>1 1</maxSize>
 			<path>./${system.name}/wallpaper.png</path>
-      <color>FFFFFF${transparency25}</color>
+      <!-- <color>FFFFFF</color> -->
+      <color>FFFFFF${alpha75}</color>
 		</image>
   </view>
 
   <view name="system">
-    <image name="background-wallpaper" extra="true">
-			<tile>false</tile>
-			<pos>0.5 0.5</pos>
-			<origin>0.5 0.5</origin>
-			<maxSize>1 1</maxSize>
-			<path>./${system.name}/wallpaper.png</path>
-      <color>FFFFFF${transparency25}</color>
-		</image>
-
-    <image name="background-logo" extra="true">
-			<tile>false</tile>
-			<pos>0.5 0.2</pos>
-			<origin>0.5 0.5</origin>
-			<maxSize>0.5 0.5</maxSize>
-			<path>./${system.name}/logo.png</path>
-		</image>
-
     <image name="background-console" extra="true">
 			<tile>false</tile>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
-			<maxSize>0.25 0.25</maxSize>
+			<maxSize>0.3 0.3</maxSize>
 			<path>./${system.name}/console.png</path>
+      <zIndex>12</zIndex>
 		</image>
   </view>
 </theme>

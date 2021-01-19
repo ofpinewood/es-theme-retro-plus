@@ -4,10 +4,10 @@
   <variables>
     <backgroundColor>121314</backgroundColor>
     <textColor>FFFFFF</textColor>
-    <textColorDark>555555</textColorDark>
+    <textColorDark>9a9b9b</textColorDark>
     <fontPath>./_inc/fonts/LessPerfectDOSVGA.ttf</fontPath>
-    <transparency75>BF</transparency75><!-- 75% -->
-    <transparency50>80</transparency50><!-- 50% -->
-    <transparency25>40</transparency25><!-- 25% -->
+    <alpha75>BF</alpha75><!-- 75% -->
+    <alpha50>80</alpha50><!-- 50% -->
+    <alpha25>40</alpha25><!-- 25% -->
   </variables>
 </theme>
