@@ -1,0 +1,50 @@
+<theme>
+  <formatVersion>4</formatVersion>
+  <include>./../system.xml</include>
+
+  <view name="detailed,video">
+    <text name="md_developer,md_publisher,md_genre,md_players">
+      <visible>false</visible>
+    </text>
+
+    <text name="md_lbl_lastplayed,md_lbl_players,md_lbl_developer,md_lbl_publisher">
+      <visible>false</visible>
+    </text>
+
+    <datetime name="md_releasedate,md_lastplayed">
+      <visible>false</visible>
+    </datetime>
+
+    <text name="md_description">
+      <visible>true</visible>
+      <pos>0.01 0.34</pos>
+      <size>0.42 0.352</size>
+    </text>
+
+    <textlist name="gamelist">
+      <alignment>right</alignment>
+      <origin>0 0</origin>
+      <pos>0.66 0.34</pos>
+      <size>0.33 0.6</size>
+      <fontSize>0.04</fontSize>
+    </textlist>
+
+    <image name="md_thumbnail">
+      <visible>false</visible>
+    </image>
+
+    <rating name="md_rating">
+      <visible>false</visible>
+    </rating>
+
+    <image name="md_image">
+      <visible>false</visible>
+    </image>
+  </view>
+
+  <view name="video">
+    <video name="md_video">
+      <visible>false</visible>
+    </video>
+  </view>
+</theme>

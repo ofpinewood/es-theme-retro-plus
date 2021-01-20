@@ -4,9 +4,11 @@
   <variables>
     <backgroundColor>121314</backgroundColor>
     <textColor>FFFFFF</textColor>
-    <textColorDark>9a9b9b</textColorDark>
+    <textColorDark>9b9b9b</textColorDark>
     <fontPathHeading>./_inc/fonts/LessPerfectDOSVGA.ttf</fontPathHeading>
     <fontPath>./_inc/fonts/VT323-Regular.ttf</fontPath>
+    <!-- <fontPathHeading>./_inc/fonts/Roboto-Medium.ttf</fontPathHeading>
+    <fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath> -->
     <alpha75>BF</alpha75><!-- 75% -->
     <alpha50>80</alpha50><!-- 50% -->
     <alpha25>40</alpha25><!-- 25% -->

@@ -20,24 +20,21 @@ license:        MIT License
       <color>${backgroundColor}FF</color>
     </image>
 
-    <image name="help-background" extra="true">
+    <!-- <image name="help-background" extra="true">
       <tile>true</tile>
       <origin>0 0</origin>
       <pos>0 0.95</pos>
       <size>1 0.05</size>
       <path>./_inc/images/tile.png</path>
       <color>${backgroundColor}FF</color>
-      <!-- <color>f59000</color> -->
       <zIndex>19</zIndex>
-    </image>
+    </image> -->
 
     <helpsystem name="help">
       <origin>0 0</origin>
       <pos>0.01 0.96</pos>
-      <!-- <textColor>${textColorDark}</textColor>
-      <iconColor>${textColorDark}</iconColor> -->
-      <textColor>2b2e2f</textColor>
-      <iconColor>2b2e2f</iconColor>
+      <textColor>3b3b3b</textColor>
+      <iconColor>3b3b3b</iconColor>
       <fontPath>${fontPathHeading}</fontPath>
     </helpsystem>
 
@@ -86,11 +83,40 @@ license:        MIT License
     </text>
   </view>
 
-  <view name="basic"></view>
+  <view name="basic">
+    <image name="logo">
+      <origin>0 1</origin>
+      <pos>0.01 0.94</pos>
+      <maxSize>0.25 0.155</maxSize>
+    </image>
 
-  <view name="detailed">
+    <textlist name="gamelist">
+      <alignment>right</alignment>
+      <origin>1 0</origin>
+      <pos>0.99 0.01</pos>
+      <size>0.33 0.95</size>
+    </textlist>
+
+    <image name="background-basic" extra="true">
+      <path>./_inc/images/gradient-basic.png</path>
+      <origin>1 0</origin>
+      <pos>1 0</pos>
+      <size>0.4 1</size>
+      <zIndex>11</zIndex>
+    </image>
+
+    <image name="background-system" extra="true">
+      <path>./_inc/images/gradient-system.png</path>
+      <origin>0 0</origin>
+      <pos>0 0.5</pos>
+      <size>1 0.5</size>
+      <zIndex>11</zIndex>
+    </image>
+  </view>
+
+  <view name="detailed,video">
     <text name="md_description,md_developer,md_publisher,md_name,md_genre,md_players">
-			<fontPath>${fontPath}</fontPath>
+      <fontPath>${fontPath}</fontPath>
       <alignment>left</alignment>
       <color>${textColor}</color>
       <lineSpacing>1</lineSpacing>
@@ -98,7 +124,7 @@ license:        MIT License
     </text>
 
     <text name="md_lbl_lastplayed,md_lbl_players,md_lbl_developer,md_lbl_publisher">
-			<fontPath>${fontPath}</fontPath>
+      <fontPath>${fontPath}</fontPath>
       <alignment>left</alignment>
       <forceUppercase>true</forceUppercase>
       <color>${textColorDark}</color>
@@ -119,7 +145,7 @@ license:        MIT License
     </image>
 
     <textlist name="gamelist">
-      <alignment>left</alignment>
+      <alignment>right</alignment>
       <origin>0 0</origin>
       <pos>0.66 0.34</pos>
       <size>0.33 0.6</size>
@@ -136,7 +162,7 @@ license:        MIT License
       <tile>false</tile>
       <origin>0 0</origin>
       <pos>0.01 0.35</pos>
-      <maxSize>1 0.4</maxSize>
+      <size>0.165 0</size>
     </image>
 
     <datetime name="md_releasedate">
@@ -149,24 +175,27 @@ license:        MIT License
       <origin>0 0</origin>
       <pos>0.235 0.345</pos>
       <size>0.09 0</size>
-		</rating>
+    </rating>
 
     <text name="md_lbl_developer">
-			<pos>0.185 0.385</pos>
-		</text>
+      <pos>0.185 0.385</pos>
+    </text>
     <text name="md_developer">
-      <pos>0.268 0.372</pos>
+      <pos>0.268 0.384</pos>
+      <size>0.3 0.025</size>
     </text>
 
     <text name="md_lbl_publisher">
-			<pos>0.185 0.42</pos>
-		</text>
+      <pos>0.185 0.42</pos>
+    </text>
     <text name="md_publisher">
-      <pos>0.268 0.406</pos>
+      <pos>0.268 0.42</pos>
+      <size>0.3 0.025</size>
     </text>
 
     <text name="md_genre">
-      <pos>0.185 0.44</pos>
+      <pos>0.185 0.453</pos>
+      <size>0.42 0.025</size>
     </text>
 
     <text name="md_description">
@@ -175,18 +204,18 @@ license:        MIT License
     </text>
 
     <text name="md_lbl_players">
-			<pos>0.01 0.87</pos>
-		</text>
+      <pos>0.01 0.87</pos>
+    </text>
     <text name="md_players">
       <pos>0.075 0.856</pos>
     </text>
 
     <text name="md_lbl_lastplayed">
-			<pos>0.01 0.905</pos>
-		</text>
+      <text>Played:</text>
+      <pos>0.01 0.905</pos>
+    </text>
     <datetime name="md_lastplayed">
-      <pos>0.108 0.892</pos>
-      <!-- <format>%Y</format> -->
+      <pos>0.068 0.892</pos>
     </datetime>
 
     <image name="background-detailed-top" extra="true">
@@ -201,28 +230,29 @@ license:        MIT License
       <path>./_inc/images/gradient-detailed-bottom.png</path>
       <origin>0 0</origin>
       <pos>0 0.33</pos>
-      <size>1 0.66</size>
+      <size>1 0.67</size>
       <zIndex>18</zIndex>
     </image>
+  </view>
 
-    <video name="md_video">
-      <pos>0.5 0.5</pos>
-      <origin>0.5 0.5</origin>
-      <size>1 0</size>
-      <!-- <maxSize>1 1</maxSize> -->
-      <zIndex>12</zIndex>
-    </video>
-
+  <view name="detailed">
     <image name="md_image">
       <tile>false</tile>
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
       <size>1 0</size>
-      <!-- <maxSize>1 1</maxSize> -->
       <zIndex>11</zIndex>
     </image>
   </view>
 
-  <view name="video"></view>
-  <view name="grid"></view>
+  <view name="video">
+    <video name="md_video">
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <size>1 0</size>
+      <delay>0.5</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <zIndex>11</zIndex>
+    </video>
+  </view>
 </theme>
