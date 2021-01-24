@@ -38,11 +38,11 @@ license:        MIT License
       <fontPath>${fontPathHeading}</fontPath>
     </helpsystem>
 
-    <!-- <text name="logoText">
-      <fontPath>${fontPath}</fontPath>
+    <text name="logoText">
+      <fontPath>${fontPathHeading}</fontPath>
       <color>${textColor}</color>
       <forceUppercase>true</forceUppercase>
-    </text> -->
+    </text>
 
     <textlist name="gamelist">
       <fontPath>${fontPath}</fontPath>
